@@ -9,7 +9,7 @@ fi
 # FFor Ubuntu
 sudo apt-add-repository ppa:i2p-maintainers/i2p
 sudo apt-get update
-sudo apt-get install tor torsocks python i2p
+sudo apt-get install apt-transport-https git curl tor torsocks python i2p
 
 if [[ -n $(cat /etc/os-release |grep kali) ]]
 then
